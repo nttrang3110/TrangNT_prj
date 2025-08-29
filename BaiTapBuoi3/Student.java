@@ -20,7 +20,7 @@ public class Student {
         this.diemLy = diemLy;
         this.diemHoa = diemHoa;
     }
-   void nhapThongTin() {
+   public void nhapThongTin() {
        Scanner scanner = new Scanner(System.in);
        System.out.println("Nhap thong tin hoc sinh");
 
@@ -44,15 +44,15 @@ public class Student {
        this.diemHoa = scanner.nextDouble();
    }
 
-    void hienThongtin(){
+    public void hienThongtin(){
         System.out.println("Thong tin hoc sinh: " + this.tenHS + " - " + "Ma HS:"  + this.maHS+ " - " + "Tuoi:" + this.tuoi);
     }
 
-    double tinhDiemTrungBinh(){
+    public double tinhDiemTrungBinh(){
         return (this.diemToan + this.diemLy + this.diemHoa) / 3;
     }
 
-    String xepLoai(){
+    public String xepLoai(){
         double dtb = tinhDiemTrungBinh();
         if (dtb >= 8) {
             return "Xep loai Gioi";

@@ -6,10 +6,10 @@ public class Circle {
     public Circle(double radius) {
         this.radius = radius;
     }
-    double Perimeter(){
+    public double Perimeter(){
         return radius * 2 * Math.PI;
     }
-    double area(){
+    public double area(){
         return radius * radius * Math.PI;
     }
     public void displayInfo(){
@@ -17,3 +17,8 @@ public class Circle {
         System.out.println("Dien tich hinh tron: "+ area() );
     }
 }
+
+
+
+
+

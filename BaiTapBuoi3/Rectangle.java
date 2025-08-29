@@ -1,7 +1,5 @@
 package Baitapbuoi3;
 
-import java.util.Scanner;
-
 public class Rectangle {
     double width;
     double height;
@@ -10,10 +8,10 @@ public class Rectangle {
         this.width = width;
         this.height = height;
     }
-    double Perimeter(){
-       return (width+height) * 2;
+    public double Perimeter(){
+       return (width + height) * 2;
     }
-    double area(){
+    public double area(){
         return width * height;
     }
     public void displayInfo(){
