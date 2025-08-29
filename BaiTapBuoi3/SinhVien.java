@@ -5,7 +5,7 @@ public class SinhVien {
     int nam;
     double diem;
 
-    SinhVien(String ten, int nam, double diem){
+    public SinhVien(String ten, int nam, double diem){
         this.ten = ten;
         this.nam = nam;
         this.diem = diem;
