@@ -7,12 +7,13 @@ public class JavaBai3 {
         Scanner scanner = new Scanner(System.in);
         final double PI = 3.14159;
         System.out.println("Nhập bán kính: ");
-        double r = scanner.nextDouble();
-        if (r>0){
-            double chu_vi = 2 * PI * r;
-            double dien_tich = PI * r * r;
-            System.out.println ("Chu vi hình tròn là: " + chu_vi);
-            System.out.println ("Diện tích hình tròn là: " + dien_tich);
+        double radius = scanner.nextDouble();
+
+        if (radius>0){
+            double circumference = 2 * PI * radius;
+            double area = PI * radius * radius;
+            System.out.println ("Chu vi hình tròn là: " + circumference);
+            System.out.println ("Diện tích hình tròn là: " + area);
         } else {
             System.out.println ("Lỗi nhập bán kính r");
         }

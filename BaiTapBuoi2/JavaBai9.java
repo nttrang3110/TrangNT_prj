@@ -7,10 +7,11 @@ public class JavaBai9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập số nguyên dương:");
-        int n = scanner.nextInt();
+        int number = scanner.nextInt();
         double tich = 1;
-        if (n>0){
-            for (int i = 1; i <= n; i++){
+
+        if (number > 0){
+            for (int i = 1; i <= number; i++){
                 tich = tich * i;
             }
             System.out.println("Giai thừa n!: " + tich);

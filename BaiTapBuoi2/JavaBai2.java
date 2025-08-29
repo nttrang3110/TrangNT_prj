@@ -9,9 +9,10 @@ public class JavaBai2 {
         double a = scanner.nextDouble();
         System.out.println("Chiều rộng: ");
         double b = scanner.nextDouble();
+
         if (a > 0 && b > 0) {
-            double dien_tich = a * b;
-            System.out.println("Diện tích hình chữ nhật là: " + dien_tich);
+            double area = a * b;
+            System.out.println("Diện tích hình chữ nhật là: " + area);
         } else {
             System.out.println("Lỗi! a và b phải lớn hơn 0");
         }

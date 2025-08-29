@@ -10,6 +10,7 @@ public class JavaBai10 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập một năm bất kỳ:");
         int nam = scanner.nextInt();
+
         if (nam % 400 == 0 || (nam % 4 == 0 && nam % 100 != 0)) {
             System.out.println("Năm đã nhập là năm nhuận");
         } else {

@@ -9,6 +9,7 @@ public class JavaBai5 {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
+
         int max = a;
         if (b > max) {
             max = b;

@@ -7,6 +7,7 @@ public class JavaBai4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập số nguyên: ");
         int a = scanner.nextInt();
+
         if (a % 2 == 0) {
             System.out.println("Số nguyên đã nhập là số chẵn");
         } else {
