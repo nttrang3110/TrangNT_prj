@@ -1,4 +1,4 @@
-package BaiTapBuoi3;
+package Baitapbuoi3;
 
 public class Circle {
     double radius;

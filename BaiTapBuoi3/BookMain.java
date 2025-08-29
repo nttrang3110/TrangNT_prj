@@ -1,4 +1,4 @@
-package BaiTapBuoi3;
+package Baitapbuoi3;
 public class BookMain {
         public static void main(String[] args) {
             Book b1 = new Book("Java", " Nguyễn Văn A", 150000);

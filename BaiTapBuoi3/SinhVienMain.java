@@ -1,4 +1,4 @@
-package BaiTapBuoi3;
+package Baitapbuoi3;
 public class SinhVienMain {
     public static void main(String[] args) {
        SinhVien s1 = new SinhVien("Nguyễn A",2003,8);

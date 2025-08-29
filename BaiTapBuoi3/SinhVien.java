@@ -1,4 +1,4 @@
-package BaiTapBuoi3;
+package Baitapbuoi3;
 // trên 5 trung bình trên 7 khá trên 9 giỏi
 public class SinhVien {
     String ten;

@@ -1,4 +1,4 @@
-package BaiTapBuoi3;
+package Baitapbuoi3;
 
 public class StudentMain {
     public static void main(String[] args){

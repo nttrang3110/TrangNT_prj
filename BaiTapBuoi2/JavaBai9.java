@@ -1,4 +1,4 @@
-package BaiTapBuoi2;
+package Baitapbuoi2;
 import java.util.Scanner;
 
 // Nhập một số nguyên dương n, tính n! (giai thừa)
