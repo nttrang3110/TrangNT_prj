@@ -31,8 +31,7 @@ public class Student {
         return score;
     }
 
-    public void setScore(double score) {
-        this.score = score;
+    public void setScore(double score) {this.score = score;
     }
     //DisplayInfo
     @Override
