@@ -37,7 +37,7 @@ SELECT OrderID, ProductName, Quantity, Price
 FROM dbo.OrderDetail od 
 JOIN dbo.Products p ON od.ProductID = p.ProductID;
 
---9. Tính tổng số lượng sản phẩm được đặt cho từng đơn hàng.​ Hiển thị: Mã đơn hàng, tổng số lượng sản phẩm OrderID, Count(Quantity)
+--9. Tính tổng số lượng sản phẩm được đặt cho từng đơn hàng.​ Hiển thị: Mã đơn hàng, tổng số lượng sản phẩm 
 SELECT OrderID, Sum(Quantity) AS Total_Products
 FROM dbo.OrderDetail 
 GROUP BY OrderID
