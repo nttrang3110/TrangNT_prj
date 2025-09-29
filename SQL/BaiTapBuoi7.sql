@@ -11,8 +11,10 @@ INSERT INTO dbo.Orders (OrderID,CustomerID,OrderDate)
 VALUES (1021,1,'2025-07-28');
 
 --4. Thêm chi tiết đơn hàng có ID = 1021 gồm 2 sản phẩm có ID = 1
+INSERT INTO dbo.Products 
+VALUES (1,'Speaker',100,'Electronics')
 INSERT INTO dbo.OrderDetail (OrderDetailID, OrderID, ProductID, Quantity)
-VALUES (41, 1021, 113, 5), (42, 1021, 101, 1);
+VALUES (43, 1021, 1, 2);
 
 --5. Cập nhật giá của sản phẩm "Laptop" thành 1500
 UPDATE dbo.Products 
