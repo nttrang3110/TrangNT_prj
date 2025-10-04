@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nguyễn Thu Trang</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <img id="logo" src="https://newwave.vn/wp-content/themes/nwstheme/assets/images/logo-nws.png" alt="Logo NWS" width="150">
+        <nav id="nav">
+            <a class="nav-link" href="introduce.html">Introduce</a> |
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Form liên hệ -->
+    <section id="contact-section">
+        <h1 id="form-title">Form liên hệ</h1>
+
+        <form id="contact-form" action="#" method="post">
+            <label for="fullname" class="label-text">Họ và tên:</label><br>
+            <input type="text" id="fullname" name="fullname" class="input-text"><br><br>
+
+            <label for="email" class="label-text">Email:</label><br>
+            <input type="email" id="email" name="email" class="input-email"><br><br>
+
+            <label for="message" class="label-text">Nội dung liên hệ:</label><br>
+            <textarea id="message" name="message" class="textarea-content" rows="4" cols="40"></textarea><br><br>
+
+            <span class="label-text">Giới tính:</span><br>
+            <input type="radio" id="male" name="gender" value="Nam" class="radio-gender">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="Nữ" class="radio-gender">
+            <label for="female">Nữ</label><br><br>
+
+            <span class="label-text">Sở thích:</span><br>
+            <input type="checkbox" id="hobby1" name="hobby" value="Nghe nhạc" class="checkbox-hobby">
+            <label for="hobby1">Nghe nhạc</label><br>
+            <input type="checkbox" id="hobby2" name="hobby" value="Đọc sách" class="checkbox-hobby">
+            <label for="hobby2">Đọc sách</label><br>
+            <input type="checkbox" id="hobby3" name="hobby" value="Xem phim" class="checkbox-hobby">
+            <label for="hobby3">Xem phim</label><br><br>
+
+            <label for="city" class="label-text">Thành phố:</label><br>
+            <select id="city" name="city" class="select-city">
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="TP.HCM">TP. Hồ Chí Minh</option>
+                <option value="Đà Nẵng">Đà Nẵng</option>
+                <option value="Hải Phòng">Hải Phòng</option>
+            </select><br><br>
+
+            <input type="submit" value="Gửi" class="btn-submit">
+            <input type="reset" value="Reset" class="btn-reset">
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="contact-info">Thông tin liên hệ:</p>
+        <a class="social-link" href="https://github.com">Github</a><br>
+        <a class="social-link" href="https://facebook.com">Facebook</a>
+        <p class="copyright">Bản quyền © 2025 – Nguyễn Thu Trang</p>
+    </footer>
+
+</body>
+</html>
