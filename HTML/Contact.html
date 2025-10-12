@@ -4,41 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="WebStyle.css">
 </head>
 <body>
 
     <!-- Header -->
     <header id="header">
         <img id="logo" src="https://newwave.vn/wp-content/themes/nwstheme/assets/images/logo-nws.png" alt="Logo NWS" width="150">
-        <nav id="nav">
+        <div class="menu">
+        <nav>
             <a class="nav-link" href="introduce.html">INTRODUCE</a> |
             <a class="nav-link" href="contact.html">CONTACT</a>
         </nav>
+        </div>
     </header>
 
-    <hr>
-
+    
+    <div id="contact-form">
     <!-- Form liên hệ -->
     <section id="contact-section">
         <h1 id="form-title">Form liên hệ</h1>
 
         <form id="contact-form" action="#" method="post">
-            <label for="fullname" class="label-text">Họ và tên:</label><br>
+            <label for="fullname" class="label-text">Họ và tên:</label><br><br>
             <input type="text" id="fullname" name="fullname" class="input-text"><br><br>
 
-            <label for="email" class="label-text">Email:</label><br>
+
+            <label for="email" class="label-text">Email:</label><br><br>
             <input type="email" id="email" name="email" class="input-email"><br><br>
 
-            <label for="message" class="label-text">Nội dung liên hệ:</label><br>
+            <label for="message" class="label-text">Nội dung liên hệ:</label><br><br>
             <textarea id="message" name="message" class="textarea-content" rows="4" cols="40"></textarea><br><br>
 
-            <span class="label-text">Giới tính:</span><br>
+            <span class="label-text">Giới tính:</span><br><br>
             <input type="radio" id="male" name="gender" value="Nam" class="radio-gender">
             <label for="male">Nam</label>
             <input type="radio" id="female" name="gender" value="Nữ" class="radio-gender">
             <label for="female">Nữ</label><br><br>
 
-            <span class="label-text">Sở thích:</span><br>
+            <span class="label-text">Sở thích:</span><br><br>
             <input type="checkbox" id="hobby1" name="hobby" value="Nghe nhạc" class="checkbox-hobby">
             <label for="hobby1">Nghe nhạc</label><br>
             <input type="checkbox" id="hobby2" name="hobby" value="Đọc sách" class="checkbox-hobby">
@@ -46,20 +50,20 @@
             <input type="checkbox" id="hobby3" name="hobby" value="Xem phim" class="checkbox-hobby">
             <label for="hobby3">Xem phim</label><br><br>
 
-            <label for="city" class="label-text">Thành phố:</label><br>
+            <label for="city" class="label-text">Thành phố:</label><br><br>
             <select id="city" name="city" class="select-city">
                 <option value="Hà Nội">Hà Nội</option>
                 <option value="TP.HCM">TP. Hồ Chí Minh</option>
                 <option value="Đà Nẵng">Đà Nẵng</option>
                 <option value="Hải Phòng">Hải Phòng</option>
-            </select><br><br>
+            </select><br><br><br>
 
             <input type="submit" value="Gửi" class="submit">
             <input type="reset" value="Reset" class="reset">
         </form>
     </section>
+    </div>
 
-    <hr>
 
     <!-- Footer -->
     <footer id="footer">

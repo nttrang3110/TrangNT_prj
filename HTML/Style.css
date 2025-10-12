@@ -1,0 +1,64 @@
+header{
+background-color: #CCFFFF;
+}
+.menu{
+display: flex;
+justify-content: flex-end;
+}
+.introduce {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+}
+
+#avatar {
+
+  border: solid 2px #217eb4;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+#name {
+  color: #217eb4;
+  text-align: center;  
+}
+/* .hobby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+#hobby-title{
+    text-decoration: underline #217eb4 ;
+}
+#hobby-list{
+    font-weight: bold;
+}
+
+#study-title{
+     text-decoration: underline #217eb4 ;
+}
+.subject-title, .score-title, .rank-title{
+    background-color:aqua;
+}
+#skill-title{
+    text-decoration: underline #217eb4 ;
+}
+#skill-list{
+   font-weight: bold;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+}
+.contact-info, .social-link, .copyright{
+    color: azure;
+}
+.table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
