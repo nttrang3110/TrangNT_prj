@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
-    <h1>Đăng nhập</h1>
-    <form action="login"></form>
-     <label for="account" class="label-text">Tài khoản</label><br>
-    <input type="text" id="account" name="account" class="input-text"><br><br>
-
-    <label for="password" class="label-text">Mật khẩu</label><br>
-    <input type="text" id="password" name="password" class="input-text"><br><br>
-
-    <input type="submit" value="Login" class="login">
-
+    <section class="main">
+    <div class="container">
+        <div class="login">
+            <h1 class="login-title">Đăng nhập</h1>
+        </div>
+        <div class="account-title">
+            <label for="account" class="label-text">Tài khoản</label><br>
+            <input type="text" id="account" name="account" class="input-text" placeholder="Enter email"><br><br>
+        </div>
+        <div class="password-title">
+            <label for="password" class="label-text">Mật khẩu</label><br>
+            <input type="text" id="password" name="password" class="input-text" placeholder="Enter password"><br><br>
+        </div>
+        <div class="show-password">
+            <input type="checkbox" name="show-password" id="show-password">
+            Show password
+        </div>
+        <br>
+        <div class="submit">
+            <input type="submit" value="Login" class="submit-button"><br>
+        </div>
+        <br>
+        <div class="forgot-password">
+            Forgot <a href="">Email or Password?</a>
+        </div>
+   
+    </div>
+    </section>
 </body>
 </html>

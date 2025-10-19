@@ -20,12 +20,12 @@
     </header>
 
     
-    <div id="contact-form">
+    <div id="contact">
     <!-- Form liên hệ -->
     <section id="contact-section">
         <h1 id="form-title">Form liên hệ</h1>
 
-        <form id="contact-form" action="#" method="post">
+        <form id="contact-form" onsubmit="showData(); return false;">
             <label for="fullname" class="label-text">Họ và tên:</label><br><br>
             <input type="text" id="fullname" name="fullname" class="input-text"><br><br>
 
@@ -64,8 +64,7 @@
         </form>
     </section>
     </div>
-
-
+    <script src="Contact.js"></script>
     <!-- Footer -->
     <footer id="footer">
         <p class="contact-info">Thông tin liên hệ:</p>
