@@ -1,4 +1,4 @@
-package Baitapbuoi12;
+package Baitapbuoi12.Bai1;
 
 public class Main {
     public static void main(String[] args){
@@ -9,4 +9,3 @@ public class Main {
         logger.logWarning("Be careful!");
         }
     }
-

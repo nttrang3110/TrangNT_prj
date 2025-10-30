@@ -1,4 +1,4 @@
-package Baitapbuoi12;
+package Baitapbuoi12.Bai1;
 
 public interface Logger {
     void log(String message);
