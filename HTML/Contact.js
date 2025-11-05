@@ -18,7 +18,6 @@ function submitForm(e) {
     hobbyList.push(hobbies[i].value);
   }
 
-
   console.log("Họ và tên:", inputName.value);
   console.log("Email:", inputEmail.value);
   console.log("Nội dung:", inputMessage.value);
